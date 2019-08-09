@@ -1,0 +1,25 @@
+table {
+  background: lighten($white, $color-step/24);
+  width: 100%;
+  border-radius: 4px;
+  margin: $spacing 0px;
+  border-collapse: separate;
+  transition: all .2s;
+
+  th, td {
+    padding: $spacing/10 $spacing/3;
+  }
+
+  td {
+    background: $lighter-white;
+    transition: all .2s;
+  }
+}
+
+body.dark table {
+  background: lighten($dark, $color-step/6);
+
+  td {
+    background: $black;
+  }
+}

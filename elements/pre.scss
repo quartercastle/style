@@ -1,0 +1,92 @@
+pre {
+  margin: $spacing 0px;
+  line-height: 1.2em;
+
+  &.language-scss {
+      code { color: $orange; }
+  }
+
+  code {
+    display: block;
+    padding: $spacing/2 $spacing/1.4;
+    overflow-x: auto;
+
+    .token.keyword {
+      color: $darker-purple;
+    }
+
+    .token.string {
+      color: $darker-green;
+    }
+
+    .token.number {
+      color: $darker-orange;
+    }
+
+    .token.class-name {
+      color: $darker-yellow;
+    }
+
+    .token.comment {
+      color: $darker-grey;
+    }
+
+    .token.function {
+      color: $darker-blue;
+    }
+
+    .token.punctuation,
+    .token.property {
+      color: $darker-grey;
+    }
+
+    .token.function-variable.function {
+      color: inherit;
+    }
+
+    .token.selector,
+    .token.variable {
+      color: $red;
+    }
+  }
+}
+
+body.dark pre code {
+  .token.keyword {
+    color: $purple;
+  }
+
+  .token.string {
+    color: $green;
+  }
+
+  .token.number {
+    color: $orange;
+  }
+
+  .token.class-name {
+    color: $yellow;
+  }
+
+  .token.comment {
+    color: $lighter-dark;
+  }
+
+  .token.function {
+    color: $blue;
+  }
+
+  .token.punctuation,
+  .token.property {
+    color: darken($darker-grey, 10%);
+  }
+
+  .token.function-variable.function {
+    color: inherit;
+  }
+
+  .token.selector,
+  .token.variable {
+    color: $red;
+  }
+}

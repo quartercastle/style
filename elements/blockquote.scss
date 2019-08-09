@@ -1,0 +1,19 @@
+blockquote {
+  display: block;
+  margin: $spacing 0px;
+  padding-left: $spacing/1.1;
+  color: lighten($lighter-black, $color-step*2);
+  border-left: solid 4px $white;
+  transition: all .2s;
+  font-style: italic;
+
+  cite {
+    display: block;
+    font-size: .8em;
+  }
+}
+
+body.dark blockquote {
+  color: darken($darker-grey, $color-step);
+  border-left: solid 4px $dark;
+}

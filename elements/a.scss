@@ -1,0 +1,20 @@
+a {
+  color: $blue;
+  text-decoration: none;
+  transition: color .1s;
+
+  &:hover {
+    color: $darker-blue;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+
+  &:focus {
+    box-shadow: 0px 0px 0px 2px $darker-blue;
+    border-radius: 4px;
+    padding: 0px 3px;
+    margin: -2px -3px;
+  }
+}

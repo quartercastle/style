@@ -1,0 +1,39 @@
+article {
+  header {
+    display: block;
+    padding: 0px $spacing;
+
+    h1, h2, h3 {
+      font-size: 2.6em;
+    }
+
+    p {
+      font-size: 1.4em;
+      line-height: 1.6em;
+      font-weight: 500;
+      margin-bottom: 0px;
+    }
+  }
+
+  footer {
+    padding: $spacing;
+    line-height: 1.4em;
+
+    time {
+      display: block;
+      font-size: .8em;
+      margin: 0px;
+      color: $darker-grey;
+    }
+
+    a, time {
+      color: $darker-grey;
+    }
+  }
+}
+
+body.dark article footer   {
+  a, time {
+    color: lighten($lighter-dark, $color-step/2);
+  }
+}

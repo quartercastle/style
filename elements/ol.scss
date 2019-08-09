@@ -1,0 +1,32 @@
+ol {
+  margin: $spacing/2 0px;
+  padding: 0px;
+  padding-left: $spacing*1.1;
+  counter-reset: li;
+
+  ul, ol {
+    counter-reset: li;
+    margin: 0px;
+    padding-left: $spacing/1.3;
+  }
+
+  li {
+    list-style: none;
+    counter-increment: li;
+
+    &:before {
+      content: counter(li) '.';
+      color: $darker-grey;
+      font-size: 1em;
+      line-height: $font-line-spacing;
+      position: absolute;
+      margin-left: $spacing*1.4 * -1;
+      width: $spacing*1.1;
+      text-align: right;
+    }
+  }
+}
+
+body.dark ol li:before {
+  color: $lighter-dark;
+}

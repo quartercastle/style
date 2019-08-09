@@ -1,0 +1,52 @@
+$color-step: 16%;
+
+$white: #f3f4f6;
+$lighter-white: lighten($white, $color-step);
+$darker-white: darken($white, $color-step);
+
+$grey: #d7dae0;
+$lighter-grey: lighten($grey, $color-step);
+$darker-grey: darken($grey, $color-step);
+
+$dark: #282c34;
+$lighter-dark: lighten($dark, $color-step);
+$darker-dark: darken($dark, $color-step);
+
+$black: #21252b;
+$lighter-black: lighten($black, $color-step);
+$darker-black: darken($black, $color-step);
+
+$green: #98c379;
+$lighter-green: lighten($green, $color-step);
+$darker-green: darken($green, $color-step);
+
+$purple: #c678dd;
+$lighter-purple: lighten($purple, $color-step);
+$darker-purple: darken($purple, $color-step);
+
+$cyan: #56b6c2;
+$lighter-cyan: lighten($cyan, $color-step);
+$darker-cyan: darken($cyan, $color-step);
+
+$orange: #d19a66;
+$lighter-orange: lighten($orange, $color-step);
+$darker-orange: darken($orange, $color-step);
+
+$red: #e06c75;
+$lighter-red: lighten($red, $color-step);
+$darker-red: darken($red, $color-step);
+
+$blue: #61afef;
+$lighter-blue: lighten($blue, $color-step);
+$darker-blue: darken($blue, $color-step);
+
+$yellow: #e5c07b;
+$lighter-yellow: lighten($yellow, $color-step);
+$darker-yellow: darken($yellow, $color-step);
+
+$font-family-sans-serif: gesta, sans-serif;
+$font-family-monospace: menlo, monospace;
+$font-size: 18px;
+$font-line-spacing: 1.8em;
+
+$spacing: 2em;
