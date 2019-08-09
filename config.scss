@@ -49,4 +49,56 @@ $font-family-monospace: menlo, monospace;
 $font-size: 18px;
 $font-line-spacing: 1.8em;
 
+$shadow: 0px 6px 40px rgba(51, 51, 51, 0.16);
+
 $spacing: 2em;
+
+
+:root {
+  --white: #{$white};
+  --lighter-white: #{$lighter-white};
+  --darker-white: #{$darker-white};
+
+  --grey: #{$grey};
+  --lighter-grey: #{$lighter-grey};
+  --darker-grey: #{$darker-grey};
+
+  --dark: #{$dark};
+  --lighter-dark: #{$lighter-dark};
+  --darker-dark: #{$darker-dark};
+
+  --black: #{$black};
+  --lighter-black: #{$lighter-black};
+  --darker-black: #{$darker-black};
+
+  --green: #{$green};
+  --lighter-green: #{$lighter-green};
+  --darker-green: #{$darker-green};
+
+  --purple: #{$purple};
+  --lighter-purple: #{$lighter-purple};
+  --darker-purple: #{$darker-purple};
+
+  --cyan: #{$cyan};
+  --lighter-cyan: #{$lighter-cyan};
+  --darker-cyan: #{$darker-cyan};
+
+  --orange: #{$orange};
+  --lighter-orange: #{$lighter-orange};
+  --darker-orange: #{$darker-orange};
+
+  --red: #{$red};
+  --lighter-red: #{$lighter-red};
+  --darker-red: #{$darker-red};
+
+  --blue: #{$blue};
+  --lighter-blue: #{$lighter-blue};
+  --darker-blue: #{$darker-blue};
+
+  --yellow: #{$yellow};
+  --lighter-yellow: #{$lighter-yellow};
+  --darker-yellow: #{$darker-yellow};
+
+  --shadow: #{$shadow};
+  --spacing: #{$spacing};
+}

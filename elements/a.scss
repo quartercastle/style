@@ -1,7 +1,7 @@
 a {
-  color: $blue;
+  color: $darker-blue;
   text-decoration: none;
-  transition: color .1s;
+  -webkit-tap-highlight-color: transparent;
 
   &:hover {
     color: $darker-blue;

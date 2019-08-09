@@ -1,0 +1,37 @@
+{
+  "name": "@quartercastle/style",
+  "version": "0.0.0",
+  "description": "Stylesheet...",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass -s compressed --no-source-map base.scss base.css",
+    "prepublish": "npm run build"
+  },
+  "files": [
+    "base.css",
+    "elements",
+    "base.scss",
+    "config.scss",
+    "reset.scss",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quartercastle/style.git"
+  },
+  "keywords": [
+    "quartercastle",
+    "style"
+  ],
+  "author": "Frederik Kvartborg Albertsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quartercastle/style/issues"
+  },
+  "homepage": "https://github.com/quartercastle/style#readme",
+  "devDependencies": {
+    "sass": "^1.22.9"
+  }
+}

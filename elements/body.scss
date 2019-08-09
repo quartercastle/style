@@ -4,7 +4,6 @@ body {
   line-height: $font-line-spacing;
   padding: 0px;
   margin: 0px;
-  transition: all .2s;
   @include light-theme;
 
   &.light { @include light-theme; }

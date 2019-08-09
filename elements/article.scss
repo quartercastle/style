@@ -1,18 +1,21 @@
 article {
   header {
     display: block;
-    padding: 0px $spacing;
 
     h1, h2, h3 {
       font-size: 2.6em;
     }
 
-    p {
+    p, aside {
       font-size: 1.4em;
       line-height: 1.6em;
-      font-weight: 500;
+      font-weight: 400;
       margin-bottom: 0px;
     }
+  }
+
+  header, section, footer {
+        padding: 0px $spacing;
   }
 
   footer {
@@ -20,14 +23,8 @@ article {
     line-height: 1.4em;
 
     time {
-      display: block;
       font-size: .8em;
       margin: 0px;
-      color: $darker-grey;
-    }
-
-    a, time {
-      color: $darker-grey;
     }
   }
 }
