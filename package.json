@@ -1,11 +1,11 @@
 {
   "name": "@quartercastle/style",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Stylesheet...",
   "main": "index.js",
   "scripts": {
     "build": "sass -s compressed --no-source-map base.scss base.css",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "files": [
     "base.css",
