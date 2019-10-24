@@ -11,7 +11,8 @@ pre {
     padding: $spacing/2 $spacing/1.4;
     overflow-x: auto;
 
-    .token.keyword {
+    .token.keyword,
+    .token.builtin {
       color: $darker-purple;
     }
 
@@ -52,7 +53,8 @@ pre {
 }
 
 body.dark pre code {
-  .token.keyword {
+  .token.keyword,
+  .token.builtin {
     color: $purple;
   }
 
