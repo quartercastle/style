@@ -32,6 +32,6 @@
   },
   "homepage": "https://github.com/quartercastle/style#readme",
   "devDependencies": {
-    "sass": "^1.22.9"
+    "sass": "^1.26.2"
   }
 }
