@@ -3,6 +3,11 @@ a {
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 
+  code {
+    color: inherit;
+    &:hover { color:inherit; }
+  }
+
   &:hover {
     color: $darker-blue;
   }
